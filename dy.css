@@ -1,0 +1,90 @@
+header{  
+    display: flex;   
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    background-size: auto;
+    width: 1000px; 
+ }
+ 
+ .menu {
+     padding:50px;
+     word-spacing: 1cm ;
+     font-size: 14px;
+     color:rgb(254, 0, 0);
+     font-family: verdana;
+ }
+   
+ .logo {
+   margin:20px; 
+ }
+ 
+ .benner img {
+     margin:20px 0;
+   }
+ 
+ .boxinduk {
+ display: flex;
+ flex-wrap: nowrap;
+ width:100%;
+ }
+ 
+ .box {
+ width: 50%;
+ margin: 10px;
+ text-align:justify;
+ font-size: 12px;
+ font-family: verdana;
+ padding:20px;
+ }
+ 
+ .boxinduk {
+     display: flex;
+     flex-wrap: nowrap;
+     width:1000px; 
+   }
+   .box {
+     width: 50%;
+     margin: 10px;
+     text-align:justify;
+     font-size: 12px;
+     font-family: verdana;
+     padding:20px;
+  
+   }
+   .boxindukdua {
+     display: flex;
+     flex-wrap: nowrap;
+     width:1000px; 
+   }
+ 
+   h4{
+   text-align: center ;
+   color:red;
+   }
+   
+   .boxindukfoot {
+     display: flex;
+     flex-wrap: nowrap;
+     width:1000px; 
+     }
+     
+     .boxfoot {
+     width: 50%;
+     margin: 10px;
+     text-align:justify;
+     font-size: 12px;
+     font-family: verdana;
+     padding:20px;
+     }
+ 
+   footer{
+     background-color: #ffffff; 
+     width:100px; 
+   }
+   .menufooter {
+     padding:10px;
+     font-size: 10px;
+     color:white;
+     font-family: verdana ;
+     margin-left:40px;
+   }

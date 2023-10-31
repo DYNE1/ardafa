@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*untuk membelah */
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.navbar .menu ul li {
+    display: inline;
+    margin-left: 10%;
+    font-family: 'montserrat', sans-serif;
+
+}
+
+.logo {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main .tulisan h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.main .tulisan p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10%;
+}
+
+.main .tulisan button {
+    background-color: #FB9100;
+    color: #ffff;
+    padding: 25px 70px;
+    font-family: 'poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.main .tulisan img {
+    margin-left: 10%;
+}
+
+.main .gambar img {
+    float: right;
+}
+
+.bawah {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    margin-top: 40%;
+}
+.bawah .tulisan2 {
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 20px;
+    margin-top: 25px;
+         
+}
+.bawah .gambar{
+    position: relative;
+    margin-top: 210%;
+}
+
